@@ -500,7 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Framework/Prefix.pch;
 				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "@executable_path/../Frameworks";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MODULEMAP_FILE = Framework/MASShortcut.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.shpakovski.${PRODUCT_NAME:rfc1034identifier}";
@@ -521,7 +521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Framework/Prefix.pch;
 				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "@executable_path/../Frameworks";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MODULEMAP_FILE = Framework/MASShortcut.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.github.shpakovski.${PRODUCT_NAME:rfc1034identifier}";
